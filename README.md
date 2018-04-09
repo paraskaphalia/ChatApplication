@@ -13,8 +13,10 @@ String DB_URL = "jdbc:mysql://localhost/sonoo";
   here sonoo is the name of the database.
 
 ->inside the database to tables are used 
-    i) messages->to store all the messages transfered between users.
-    ii)users-> this table is used to store the login details of the user.
+
+   i) messages->to store all the messages transfered between users.
+
+   ii)users-> this table is used to store the login details of the user.
 
 ->table users contains four fields which are fname(varchar(20)) lname(varchar(20)) hname(varchar(20)) pass(varchar(20))
 
@@ -26,5 +28,7 @@ String DB_URL = "jdbc:mysql://localhost/sonoo";
 RUNNING THE APPLICATION
 -------------------------
 ->run the server code
+
 ->after the server starts run the client side .
+
 ->enter the ip address of the server and the port of the in which application is running.By default server is running in the port number-   5239
